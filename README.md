@@ -14,3 +14,16 @@
 等等（babel 设置的stage-0，几乎支持全部的新语法）
 
 启动时 nodemon/pm2等  直接启动 run.js 文件即可
+
+
+初始项目由
+
+npm install -g koa-generator
+
+// 这里一定要用koa2
+
+koa2 /dir
+
+搭建。其他大部分由个人完成。
+
+该项目还有待完善之处，仅供参考，不喜勿喷。
