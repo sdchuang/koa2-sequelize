@@ -1,21 +1,20 @@
-
 export default{
   mysql: {
-    database: 'localtest',
-    username: 'root',
-    password: '123456',
+    database: 'xx',
+    username: 'xx',
+    password: 'xx',
     params: {
       host: 'localhost',
       port:'3306',
       dialect: 'mysql',
       define: {
         'underscored': true,
-        'timestamps':false,//是否生成created_at等
+        'timestamps':false,
       },
-      timezone:'+08:00',//时区控制
+      timezone:'+08:00',
       logging: console.log,//日志
       operatorsAliases: false,
-      sync:{force:false},//强制同步生成表格
+      sync:{force:false},//强制同步表格
       pool: {//连接池
         max: 1000,
         min: 0,

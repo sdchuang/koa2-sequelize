@@ -1,13 +1,10 @@
-// 待处理
-// const env = process.env.NODE_ENV;
+
+const env = process.env.NODE_ENV;
 // console.log(env);
+// 开发环境下env默认为dev   其他情况无默认值
+var config;
 
-// let config = require('./dev.js');
-// import config from './dev'
-import config from './test'
+env ? config = require(`./dev.js`) : config = require(`./prd.js`)
 
-// if (env) {
-//   config = require(`./${env}.js`);
-// }
-
-export default config;
+// console.log(config)
+export default config.default;
