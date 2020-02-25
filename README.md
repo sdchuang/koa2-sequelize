@@ -5,7 +5,7 @@
 
 其中babel相关配置解决node对es6/es7语法兼容的问题
 
-#启动
+# 启动
 nodemon/pm2等  直接启动 run.js 文件即可
 
 
